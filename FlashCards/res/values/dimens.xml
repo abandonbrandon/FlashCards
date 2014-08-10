@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="app">32dp</dimen>
+    <dimen name="menubtn">16dp</dimen>
+    <dimen name="actionbar">12dp</dimen>
+    <dimen name="cardlist">12dp</dimen>
+    <dimen name="cardtitle">16dp</dimen>
+    <dimen name="default_dimen">16dp</dimen>
+    <dimen name="double_default">32dp</dimen>
+    <dimen name="scroll">60dp</dimen>
+    <dimen name="titlespace">100dp</dimen>
+    <dimen name="line">1dp</dimen>
+    <dimen name="split">3dp</dimen>
+	<dimen name="linemargin">5dp</dimen>
+	<dimen name="smallfont">11dp</dimen>
+	<dimen name="displayname">24dp</dimen>
+	<dimen name="zero">0dp</dimen>
+
+</resources>

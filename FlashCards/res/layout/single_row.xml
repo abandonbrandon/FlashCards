@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/default_dimen"
+    android:paddingRight="@dimen/default_dimen"
+    tools:context="edu.ucsb.cs.cs185.idarvis.idarvisflashcards.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <TextView
+        android:id="@+id/Row1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:paddingLeft="@dimen/default_dimen"
+        android:paddingRight="@dimen/default_dimen"
+        android:paddingTop="@dimen/default_dimen"
+        android:textSize="@dimen/displayname" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/Row2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:paddingBottom="@dimen/default_dimen"
+        android:paddingLeft="@dimen/default_dimen"
+        android:paddingRight="@dimen/default_dimen"
+        android:textSize="@dimen/smallfont" >
+    </TextView>
+
+</LinearLayout>

@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/editpage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/default_dimen"
+    android:paddingRight="@dimen/default_dimen"
+    tools:context="edu.ucsb.cs.cs185.idarvis.idarvisflashcards.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/linemargin" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/section"
+            android:textSize="@dimen/cardtitle" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/sectionname"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/sectionhint"
+            android:inputType="textMultiLine"
+            android:textSize="@dimen/cardlist" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/double_default">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/info"
+            android:textSize="@dimen/cardtitle" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/details"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/infohint"
+            android:inputType="textMultiLine"
+            android:textSize="@dimen/cardlist" >
+        </EditText>
+    </LinearLayout>
+
+
+</LinearLayout>

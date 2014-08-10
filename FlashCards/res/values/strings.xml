@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FlashCards</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Main Menu -->
+    <string name="search">Search</string>
+    <string name="newcard">New Card</string>
+    <string name="edit">Edit</string>
+
+    <!-- Search stuff -->
+    <string name="searchhint">Search by Card Name</string>
+    <string name="searchsubject">Search by Subject</string>
+
+    <!-- ActionBar -->
+    <string name="options">Options</string>
+    <string name="add">Add</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="flip">Flip</string>
+    <string name="delete">Delete</string>
+    <string name="about">About</string>
+    <string name="cards">Card</string>
+    <string name="back">Back</string>
+    <string name="label">Label name</string>
+
+    <!-- Edit/Create -->
+    <string name="title">Title:</string>
+    <string name="subject">Subject:</string>
+    <string name="subjecttitle">Subject Name</string>
+    <string name="section">Section:</string>
+    <string name="sectionhint">Section Name</string>
+    <string name="cardtitle">Card Name</string>
+    <string name="tempname">Temp</string>
+    <string name="info">Info:</string>
+    <string name="infohint">Details</string>
+    <string name="camera">Photo</string>
+    <string name="text">Text</string>
+    <string name="date">Date</string>
+    
+
+    <!-- Dialogs -->
+    <string name="yes">Yes</string>
+    <string name="okay">OK</string>
+    <string name="no">No</string>
+    <string name="canceltext">Are you sure you want to cancel everything?  All changes will not be saved.</string>
+    <string name="clearalltext">Are you sure you want to delete this card? All information on the card will be lost.</string>
+    <string name="deleteerror">The card you are trying to delete does not exist.</string>
+    <string name="nameerror">Cannot save.  The card needs to be named.</string>
+    <string name="subjecterror">Cannot save.  The card must belong to a subject.</string>
+    <string name="usedname">Name is already taken.  Please rename the card.</string>
+    <string name="settings">No settings&#8230;yet</string>
+    <string name="abouttext">CS 185\n\nFlashCards App by: \n\nDaryl Pham\nBrandon Starler\nEric Melton\nWie Jia Li</string>
+    <string name="save1">Your card, </string>
+    <string name="save2">, has been saved!</string>
+    <string name="defaultsubject">All Cards</string>
+
+    <!-- Writing out to file -->
+    <string name="namesfolder">CardList</string>
+    <string name="namelist">CardNames</string>
+    <string name="cardstart">&lt;Card&gt;</string>
+    <string name="cardend">&lt;/Card&gt;</string>
+    <string name="namestart">&lt;Name&gt;</string>
+    <string name="nameend">&lt;/Name&gt;</string>
+    <string name="subjectstart">&lt;Subject&gt;</string>
+    <string name="subjectend">&lt;/Subject&gt;</string>
+    <string name="information">Info</string>
+    <string name="infostart">&lt;Info&gt;</string>
+    <string name="infoend">&lt;/Info&gt;</string>
+    <string name="lt">&lt;</string>
+    <string name="lte">&lt;/</string>
+    <string name="gt">&gt;</string>
+
+    <!-- Colors -->
+    <color name="red">#FF0000</color>
+    <color name="black">#FFFFFF</color>
+    <color name="lightblue">#00CCFF</color>
+    <color name="blue">#0000FF</color>
+    <color name="grey">#858585</color>
+    <color name="lightgrey">#CDCDCD</color>
+
+</resources>
